@@ -6,11 +6,11 @@ public class scr_Player_Main : MonoBehaviour
 {
     public Rigidbody2D rb;
 
-    public float GroundCheckRadius = 0.2f;
-    public bool onGround = false;
-
-    public Transform GroundCheck;
-    public Animator animator;
+    [SerializeField] float GroundCheckRadius = 0.2f;
+    [SerializeField] bool onGround = false;
+    [SerializeField] private float interactionRadius = 3f;
+    [SerializeField] Transform GroundCheck;
+    [SerializeField] Animator animator;
 
     public bool faceRight = true;
 
@@ -26,20 +26,24 @@ public class scr_Player_Main : MonoBehaviour
 
     void Update()
     {
+        if (!IsInteracting)
+        {
+            Walk();
+            Jump();
+            WallJump();
+            Dash();
+            TryInteract();
+        }
         CheckingGround();
         HandleWallSlide();
-        Walk();
         Reflect();
-        Jump();
-        WallJump();
-        Dash();
         CheckingWall();
     }
 
     public float realSpeed = 6f;
     public float runSpeedMultiplier = 2;
     public float smoothTime = 0.1f;
-
+    public bool IsInteracting { get; set; }
     private Vector2 moveVector;
     private Vector2 currentVelocity;
 
@@ -185,6 +189,28 @@ public class scr_Player_Main : MonoBehaviour
             else
             {
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, -slideSpeed);
+            }
+        }
+    }
+    private float interactionCooldown = 3f; // Кулдаун для взаимодействия
+    private float lastInteractionTime = -Mathf.Infinity; // Время последнего взаимодействия
+
+    private void TryInteract()
+    {
+        // Проверяем нажатие клавиши "E" и кулдаун
+        if (Input.GetKeyDown(KeyCode.E) && Time.time >= lastInteractionTime + interactionCooldown)
+        {
+            // Проверяем объекты в радиусе взаимодействия
+            Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, interactionRadius);
+            foreach (var hit in hits)
+            {
+                IInteractable interactable = hit.GetComponent<IInteractable>();
+                if (interactable != null)
+                {
+                    interactable.Interact();
+                    lastInteractionTime = Time.time; // Записываем время последнего взаимодействия
+                    break; // Взаимодействуем только с первым найденным объектом
+                }
             }
         }
     }
