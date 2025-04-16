@@ -1,13 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-
-    private Transform target;
     [SerializeField] private float smoothSpeed;
     [SerializeField] private float minX, maxX, minY, maxY;
+    private Transform target;
 
     private void Awake()
     {
@@ -22,5 +19,4 @@ public class CameraController : MonoBehaviour
                                          Mathf.Clamp(transform.position.y, minY, maxY),
                                          transform.position.z);
     }
-
 }

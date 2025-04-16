@@ -2,21 +2,22 @@ using UnityEngine;
 
 public class GravityBox : MonoBehaviour, IInteractable
 {
-    // ... (остальные поля)
-
+    #region Serialized
     [SerializeField] private TextAsset infoFile; // Текстовый файл с информацией
     [SerializeField] private InfoWindow infoWindow; // Ссылка на информационное окно
-    [SerializeField] private scr_Player_Main player;
+    [SerializeField] private MonoBehaviour player;
     [SerializeField] private float interactionRadius = 3f;
-    public double gravityX { get; set; } = 1; // Гравитация по оси X (публичное свойство)
-    public double gravityY { get; set; } = 0; // Гравитация по оси Y (публичное свойство)
-
     // Ссылки на текстовые файлы
     [SerializeField] private TextAsset defaultCodeFile; // Стандартный код
     [SerializeField] private TextAsset helpInfoFile; // Справочная информация
-
     // Ссылка на редактор кода
     [SerializeField] private CodeEditorWindow codeEditorWindow;
+    #endregion
+
+    #region Gravity
+    public double gravityX { get; set; } = 1; // Гравитация по оси X (публичное свойство)
+    public double gravityY { get; set; } = 0; // Гравитация по оси Y (публичное свойство)\
+    #endregion
 
     private Rigidbody2D rb; // Компонент Rigidbody2D
     private string currentCode; // Текущий код, введенный игроком

@@ -5,11 +5,13 @@ using System.Collections.Generic;
 
 public class DialogueSystem : MonoBehaviour
 {
+    #region DialogItems
     public Text dialogueText; // UI Text для отображения диалога
     public Image background; // Полупрозрачный фон
     public Font[] fonts; // Массив шрифтов
     public Button nextButton; // Кнопка для перехода к следующей строке
     public Button prevButton; // Кнопка для возврата к предыдущей строке
+    #endregion
 
     private List<string> dialogueLines = new List<string>(); // Список строк диалога
     private int currentLine = 0; // Текущая строка диалога
