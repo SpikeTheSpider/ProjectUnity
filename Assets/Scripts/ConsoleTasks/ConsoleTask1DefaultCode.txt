@@ -1,0 +1,6 @@
+// Исправьте типы переменных:
+
+int oxygenLevel = "95";          
+string moduleName = true;           
+bool isOperational = -12.5f;        
+string temperature = "Реактор";          

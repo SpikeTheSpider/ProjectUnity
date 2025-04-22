@@ -38,7 +38,6 @@ public class ContextMenu : MonoBehaviour
         currentInteractable = interactable;
         gameObject.SetActive(true); // Показываем меню
 
-        player.IsInteracting = true; // Блокируем взаимодействие
     }
 
     public void CloseMenu(scr_Player_Main player)
@@ -46,7 +45,6 @@ public class ContextMenu : MonoBehaviour
         gameObject.SetActive(false); // Скрываем меню
         currentInteractable = null;
 
-        player.IsInteracting = false; // Снимаем блокировку
     }
 
     private void TriggerCooldown()

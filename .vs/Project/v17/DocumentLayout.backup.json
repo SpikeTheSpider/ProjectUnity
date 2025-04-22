@@ -3,48 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\Boop\\Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|C:\\Users\\Boop\\Project\\assets\\scripts\\player\\scr_maincharacter_isometric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\scr_maincharacter_isometric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|C:\\Users\\Boop\\Project\\assets\\scripts\\scene managment\\scr_door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scene managment\\scr_door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|C:\\Users\\Boop\\Project\\assets\\scripts\\player\\scr_maincharacter_platformer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\scr_maincharacter_platformer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|C:\\Users\\Boop\\Project\\assets\\scripts\\scene managment\\scr_mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scene managment\\scr_mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|c:\\users\\boop\\project\\assets\\scripts\\consoletasks\\consoletask1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\consoletasks\\consoletask1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|C:\\Users\\Boop\\Project\\assets\\scripts\\gravitybox\\defaultcode.txt.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gravitybox\\defaultcode.txt.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|c:\\users\\boop\\project\\assets\\scripts\\ingameconsole\\codeeditorwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ingameconsole\\codeeditorwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|C:\\Users\\Boop\\Project\\assets\\scripts\\contextoperations\\contextmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\contextoperations\\contextmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|C:\\Users\\Boop\\Project\\assets\\scripts\\ingameconsole\\infowindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ingameconsole\\infowindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|c:\\users\\boop\\project\\assets\\scripts\\dialogue\\displaytext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue\\displaytext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|c:\\users\\boop\\project\\assets\\scripts\\dialogue\\dialoguesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue\\dialoguesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|C:\\Users\\Boop\\Project\\assets\\scripts\\scene managment\\scr_door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scene managment\\scr_door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|C:\\Users\\Boop\\Project\\assets\\scripts\\contextoperations\\clickhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\contextoperations\\clickhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|C:\\Users\\Boop\\Project\\assets\\scripts\\contextoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\contextoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|C:\\Users\\Boop\\Project\\assets\\scripts\\gravitybox\\gravitybox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gravitybox\\gravitybox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|C:\\Users\\Boop\\Project\\assets\\scripts\\scene managment\\scr_mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scene managment\\scr_mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|C:\\Users\\Boop\\Project\\assets\\scripts\\contextoperations\\contextmenubutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\contextoperations\\contextmenubutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|C:\\Users\\Boop\\Project\\assets\\scripts\\contextoperations\\outlineonhover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\contextoperations\\outlineonhover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|C:\\Users\\Boop\\Project\\assets\\scripts\\dialogue\\dialoguesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue\\dialoguesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|C:\\Users\\Boop\\Project\\assets\\scripts\\dialogue\\displaytext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue\\displaytext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|C:\\Users\\Boop\\Project\\assets\\scripts\\ingameconsole\\infowindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ingameconsole\\infowindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|C:\\Users\\Boop\\Project\\assets\\scripts\\player\\scr_maincharacter_platformer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\scr_maincharacter_platformer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|C:\\Users\\Boop\\Project\\assets\\scripts\\player\\scr_maincharacter_isometric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\scr_maincharacter_isometric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|C:\\Users\\Boop\\Project\\assets\\scripts\\contextoperations\\clickhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\contextoperations\\clickhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -81,38 +97,101 @@
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DialogueSystem.cs",
-              "DocumentMoniker": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\Dialogue\\DialogueSystem.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue\\DialogueSystem.cs",
-              "ToolTip": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\Dialogue\\DialogueSystem.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Dialogue\\DialogueSystem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ConsoleTask1.cs",
+              "DocumentMoniker": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\ConsoleTasks\\ConsoleTask1.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ConsoleTasks\\ConsoleTask1.cs",
+              "ToolTip": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\ConsoleTasks\\ConsoleTask1.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ConsoleTasks\\ConsoleTask1.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAAAI4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T09:30:40.848Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DisplayText.cs",
-              "DocumentMoniker": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\Dialogue\\DisplayText.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue\\DisplayText.cs",
-              "ToolTip": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\Dialogue\\DisplayText.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Dialogue\\DisplayText.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T09:29:21.838Z",
+              "WhenOpened": "2025-04-22T20:27:06.37Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "defaultCode.txt.txt",
+              "DocumentMoniker": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\GravityBox\\defaultCode.txt.txt",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GravityBox\\defaultCode.txt.txt",
+              "ToolTip": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\GravityBox\\defaultCode.txt.txt",
+              "RelativeToolTip": "Assets\\Scripts\\GravityBox\\defaultCode.txt.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-22T17:50:53.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContextMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\ContextOperations\\ContextMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ContextOperations\\ContextMenu.cs",
+              "ToolTip": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\ContextOperations\\ContextMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ContextOperations\\ContextMenu.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T11:33:53.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GravityBox.cs",
+              "DocumentMoniker": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\GravityBox\\GravityBox.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GravityBox\\GravityBox.cs",
+              "ToolTip": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\GravityBox\\GravityBox.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GravityBox\\GravityBox.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T12:10:36.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CodeEditorWindow.cs",
+              "DocumentMoniker": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\IngameConsole\\CodeEditorWindow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\IngameConsole\\CodeEditorWindow.cs",
+              "ToolTip": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\IngameConsole\\CodeEditorWindow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\IngameConsole\\CodeEditorWindow.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAJsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T15:12:10.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "scr_MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\Scene Managment\\scr_MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Scene Managment\\scr_MainMenu.cs",
+              "ToolTip": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\Scene Managment\\scr_MainMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Scene Managment\\scr_MainMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T19:45:58.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "scr_Door.cs",
+              "DocumentMoniker": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\Scene Managment\\scr_Door.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Scene Managment\\scr_Door.cs",
+              "ToolTip": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\Scene Managment\\scr_Door.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Scene Managment\\scr_Door.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T06:18:11.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "InfoWindow.cs",
               "DocumentMoniker": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\IngameConsole\\InfoWindow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\IngameConsole\\InfoWindow.cs",
@@ -120,50 +199,47 @@
               "RelativeToolTip": "Assets\\Scripts\\IngameConsole\\InfoWindow.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T08:46:48.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T08:46:48.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DisplayText.cs",
+              "DocumentMoniker": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\Dialogue\\DisplayText.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue\\DisplayText.cs",
+              "ToolTip": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\Dialogue\\DisplayText.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialogue\\DisplayText.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T09:29:21.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ContextMenuButton.cs",
+              "DocumentMoniker": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\ContextOperations\\ContextMenuButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ContextOperations\\ContextMenuButton.cs",
+              "ToolTip": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\ContextOperations\\ContextMenuButton.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ContextOperations\\ContextMenuButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T16:17:39.557Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "ContextOperations.cs",
-              "DocumentMoniker": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\ContextOperations.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ContextOperations.cs",
-              "ToolTip": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\ContextOperations.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ContextOperations.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Title": "OutlineOnHover.cs",
+              "DocumentMoniker": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\ContextOperations\\OutlineOnHover.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ContextOperations\\OutlineOnHover.cs",
+              "ToolTip": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\ContextOperations\\OutlineOnHover.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ContextOperations\\OutlineOnHover.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T06:28:14.621Z"
+              "WhenOpened": "2025-04-12T06:04:10.704Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "scr_MainCharacter_Isometric.cs",
-              "DocumentMoniker": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\Player\\scr_MainCharacter_Isometric.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\scr_MainCharacter_Isometric.cs",
-              "ToolTip": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\Player\\scr_MainCharacter_Isometric.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\scr_MainCharacter_Isometric.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T06:00:51.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ContextMenu.cs",
-              "DocumentMoniker": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\ContextOperations\\ContextMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ContextOperations\\ContextMenu.cs",
-              "ToolTip": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\ContextOperations\\ContextMenu.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ContextOperations\\ContextMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T11:33:53.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "scr_MainCharacter_Platformer.cs",
               "DocumentMoniker": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\Player\\scr_MainCharacter_Platformer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\scr_MainCharacter_Platformer.cs",
@@ -171,12 +247,35 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\scr_MainCharacter_Platformer.cs",
               "ViewState": "AgIAALgAAAAAAAAAAAAAANcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T12:53:21.105Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T12:53:21.105Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
+              "Title": "DialogueSystem.cs",
+              "DocumentMoniker": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\Dialogue\\DialogueSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue\\DialogueSystem.cs",
+              "ToolTip": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\Dialogue\\DialogueSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialogue\\DialogueSystem.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAIBJwCYAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T09:30:40.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "scr_MainCharacter_Isometric.cs",
+              "DocumentMoniker": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\Player\\scr_MainCharacter_Isometric.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\scr_MainCharacter_Isometric.cs",
+              "ToolTip": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\Player\\scr_MainCharacter_Isometric.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\scr_MainCharacter_Isometric.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T06:00:51.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ClickHandler.cs",
               "DocumentMoniker": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\ContextOperations\\ClickHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ContextOperations\\ClickHandler.cs",
@@ -185,42 +284,6 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-22T06:28:36.681Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "scr_Door.cs",
-              "DocumentMoniker": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\Scene Managment\\scr_Door.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Scene Managment\\scr_Door.cs",
-              "ToolTip": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\Scene Managment\\scr_Door.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Scene Managment\\scr_Door.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T06:18:11.295Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "scr_MainMenu.cs",
-              "DocumentMoniker": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\Scene Managment\\scr_MainMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Scene Managment\\scr_MainMenu.cs",
-              "ToolTip": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\Scene Managment\\scr_MainMenu.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Scene Managment\\scr_MainMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T19:45:58.802Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GravityBox.cs",
-              "DocumentMoniker": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\GravityBox\\GravityBox.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GravityBox\\GravityBox.cs",
-              "ToolTip": "C:\\Users\\Boop\\Project\\Assets\\Scripts\\GravityBox\\GravityBox.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GravityBox\\GravityBox.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T12:10:36.839Z"
             }
           ]
         }
