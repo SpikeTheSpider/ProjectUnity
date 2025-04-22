@@ -1,5 +1,9 @@
-using System.Numerics;
-using UnityEngine;
+public enum ButtonAction
+{
+    Info,
+    Interact,
+    Hack
+}
 
 public interface IInteractable
 {
@@ -13,10 +17,4 @@ public interface IInteractable
     // Новые методы для сохранения и получения текущего кода
     string GetCurrentCode(); // Возвращает текущий код, введенный игроком
     void SetCurrentCode(string code); // Сохраняет текущий код
-}
-public enum ButtonAction
-{
-    Info,
-    Interact,
-    Hack
 }

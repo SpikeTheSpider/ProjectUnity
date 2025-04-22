@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 public class scr_MainMenu : MonoBehaviour
 {
     public void StartGame()

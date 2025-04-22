@@ -1,9 +1,10 @@
+using Assets.Scripts.Player;
 using UnityEngine;
 
 public class ClickHandler : MonoBehaviour
 {
     [SerializeField] private ContextMenu contextMenu;
-    [SerializeField] private scr_Player_Main player;
+    [SerializeField] private MonoBehaviour player;
     [SerializeField] private LayerMask interactableLayer; // Слой для взаимодействия
 
     private void Update()
@@ -20,13 +21,13 @@ public class ClickHandler : MonoBehaviour
                 IInteractable interactable = hit.collider.GetComponent<IInteractable>();
                 if (interactable != null)
                 {
-                    contextMenu.ShowMenu(mousePosition, interactable, player.transform.position, player); // Показываем меню на месте клика
+                    contextMenu.ShowMenu(mousePosition, interactable, player.transform.position, (IPlayer)player); // Показываем меню на месте клика
                 }
             }
             else
             {
                 // Если клик был вне объекта, закрываем меню
-                contextMenu.CloseMenu(player);
+                contextMenu.CloseMenu((IPlayer)player);
             }
         }
     }

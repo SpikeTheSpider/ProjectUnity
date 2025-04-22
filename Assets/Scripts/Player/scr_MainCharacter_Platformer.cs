@@ -1,19 +1,66 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Threading;
+using Assets.Scripts.Player;
+using System;
 using UnityEngine;
-public class scr_Player_Main : MonoBehaviour 
-{
-    public Rigidbody2D rb;
 
+[Serializable]
+public class PlayerPlatformerMovement : MonoBehaviour, IPlayer
+{
+    #region Serialized
     [SerializeField] float GroundCheckRadius = 0.2f;
     [SerializeField] bool onGround = false;
     [SerializeField] private float interactionRadius = 3f;
     [SerializeField] Transform GroundCheck;
     [SerializeField] Animator animator;
+    #endregion
 
-    public bool faceRight = true;
+    private Vector2 moveVector;
+    private Vector2 currentVelocity;
+    public LayerMask Ground;
 
+    public bool faceRight = true; 
+    public Rigidbody2D rb;
+
+    #region Walk
+    public float realSpeed = 6f;
+    public float runSpeedMultiplier = 2;
+    public float smoothTime = 0.1f;
+    #endregion
+
+    #region Stamina
+    public float maxStamina = 4f; // Максимальное значение силы
+    public float stamina;        // Текущее значение силы
+    #endregion
+
+    #region Jump
+    public static float jumpForce = 240f;
+    private bool jumpControl;
+    private float jumpIteration = 0;
+    public float jumpValueIteration = 60;
+    #endregion
+
+    #region Dash
+    public int dashImpulse = 500;
+    private bool dashLock = false;
+    #endregion
+
+    #region WallJump
+    public float climbForce = 10f;
+    public float slideSpeed = 20f;
+    private float gravityDef;
+    public bool onWall;
+    private float WallCheckRadius;
+    public Transform WallCheck;
+    private bool blockMoveXforJump;
+    public float jumpWallTime = 0.5f;
+    private float timerJumpWall;
+    public Vector2 jumpAngle = new Vector2(3.5f, jumpForce / 100);
+    #endregion
+
+    #region Interaction
+    private float interactionCooldown = 3f; // Кулдаун для взаимодействия
+    private float lastInteractionTime = -Mathf.Infinity; // Время последнего взаимодействия
+    public bool IsInteracting { get; set; }
+    #endregion
 
     void Start()
     {
@@ -34,18 +81,12 @@ public class scr_Player_Main : MonoBehaviour
             Dash();
             TryInteract();
         }
+
         CheckingGround();
         HandleWallSlide();
         Reflect();
         CheckingWall();
     }
-
-    public float realSpeed = 6f;
-    public float runSpeedMultiplier = 2;
-    public float smoothTime = 0.1f;
-    public bool IsInteracting { get; set; }
-    private Vector2 moveVector;
-    private Vector2 currentVelocity;
 
     void Walk()
     {
@@ -72,22 +113,21 @@ public class scr_Player_Main : MonoBehaviour
         }
     }
 
-    public static float jumpForce = 210f;
-    private bool jumpControl;
-    private float jumpIteration = 0;
-    public float jumpValueIteration = 60;
-
     void Jump()
     {
         if (Input.GetKey(KeyCode.Space))
         {
-            if (onGround) 
-            { 
-                jumpControl = true; 
+            if (onGround)
+            {
+                jumpControl = true;
             }
-            
+
         }
-        else { jumpControl = false; }
+        else 
+        { 
+            jumpControl = false; 
+        }
+
         if (jumpControl)
         {
             if (jumpIteration++ < jumpValueIteration)
@@ -95,10 +135,11 @@ public class scr_Player_Main : MonoBehaviour
                 rb.AddForce(Vector2.up * jumpForce / jumpIteration);
             }
         }
-        else { jumpIteration = 0; }
+        else 
+        { 
+            jumpIteration = 0; 
+        }
     }
-    public int dashImpulse = 500;
-    private bool dashLock = false;
 
     void Dash()
     {
@@ -118,32 +159,20 @@ public class scr_Player_Main : MonoBehaviour
             Invoke("DashUnlock", 2f);
         }
     }
-    public LayerMask Ground;
+
     void CheckingGround()
     {
         onGround = Physics2D.OverlapCircle(GroundCheck.position, GroundCheckRadius, Ground);
         animator.SetBool("onGround", onGround);
+
         if (onGround && stamina < maxStamina)
         {
             stamina += 2*Time.deltaTime; ;
         }
     }
+
     private void DashUnlock() => dashLock = false; 
 
-    public float climbForce = 10f;
-    public float slideSpeed = 20f;
-    private float gravityDef;
-
-
-    public bool onWall;
-    private float WallCheckRadius;
-    public Transform WallCheck;
-
-
-    private bool blockMoveXforJump;
-    public float jumpWallTime = 0.5f;
-    private float timerJumpWall;
-    public Vector2 jumpAngle = new Vector2(3.5f, jumpForce/100 );
     void WallJump()
     {
         if (onWall && !onGround && Input.GetKeyDown(KeyCode.Space) && stamina * 4 >= maxStamina)
@@ -157,6 +186,7 @@ public class scr_Player_Main : MonoBehaviour
             rb.linearVelocity = new Vector2(0, 0);
             rb.linearVelocity = new Vector2(transform.localScale.x * jumpAngle.x, jumpAngle.y);
         }
+
         if (blockMoveXforJump && (timerJumpWall += Time.deltaTime) >= jumpWallTime)
         {
             if (onWall || onGround || Input.GetAxisRaw("Horizontal") != 0)
@@ -166,13 +196,11 @@ public class scr_Player_Main : MonoBehaviour
             }
         }
     }
+
     void CheckingWall()
     {
         onWall = Physics2D.OverlapCircle(WallCheck.position, WallCheckRadius, Ground);
     }
-
-    public float maxStamina = 4f; // Максимальное значение силы
-    public float stamina;        // Текущее значение силы
 
     void HandleWallSlide()
     {
@@ -186,14 +214,13 @@ public class scr_Player_Main : MonoBehaviour
                 }
                 if(!onGround) stamina -= Time.deltaTime;
             }
+
             else
             {
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, -slideSpeed);
             }
         }
     }
-    private float interactionCooldown = 3f; // Кулдаун для взаимодействия
-    private float lastInteractionTime = -Mathf.Infinity; // Время последнего взаимодействия
 
     private void TryInteract()
     {

@@ -1,5 +1,4 @@
-using UnityEngine;
-
+using Assets.Scripts.Player;
 using UnityEngine;
 
 public class ContextMenu : MonoBehaviour
@@ -11,7 +10,7 @@ public class ContextMenu : MonoBehaviour
     private IInteractable currentInteractable;
     private float lastInteractionTime = -Mathf.Infinity; // Время последнего взаимодействия
 
-    public void ShowMenu(Vector2 position, IInteractable interactable, Vector2 playerPosition, scr_Player_Main player)
+    public void ShowMenu(Vector2 position, IInteractable interactable, Vector2 playerPosition, IPlayer player)
     {
         // Проверяем кулдаун
         if (Time.time < lastInteractionTime + interactionCooldown)
@@ -40,7 +39,7 @@ public class ContextMenu : MonoBehaviour
 
     }
 
-    public void CloseMenu(scr_Player_Main player)
+    public void CloseMenu(IPlayer player)
     {
         gameObject.SetActive(false); // Скрываем меню
         currentInteractable = null;
