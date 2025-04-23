@@ -1,5 +1,6 @@
 using UnityEngine;
 using System;
+using Assets.Scripts.Player;
 
 public class ConsoleTask1 : MonoBehaviour, IInteractable
 {
@@ -18,11 +19,11 @@ public class ConsoleTask1 : MonoBehaviour, IInteractable
     public float Temperature { get; set; } = -12.5f;
 
     private string currentCode;
-    private scr_Player_Main player;
+    private PlayerPlatformerMovement player;
 
     private void Start()
     {
-        player = FindObjectOfType<scr_Player_Main>();
+        player = FindObjectOfType<PlayerPlatformerMovement>();
     }
 
     public void Interact()

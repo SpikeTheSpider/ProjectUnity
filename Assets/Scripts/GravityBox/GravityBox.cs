@@ -1,11 +1,13 @@
+using Assets.Scripts.Player;
 using UnityEngine;
+using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class GravityBox : MonoBehaviour, IInteractable
 {
 
     [SerializeField] private TextAsset infoFile; // Текстовый файл с информацией
     [SerializeField] private InfoWindow infoWindow; // Ссылка на информационное окно
-    [SerializeField] private scr_Player_Main player;
+    [SerializeField] private IPlayer player;
     [SerializeField] private float interactionRadius = 3f;
     public double gravityX { get; set; } = 0; // Гравитация по оси X (публичное свойство)
     public double gravityY { get; set; } = -5; // Гравитация по оси Y (публичное свойство)
@@ -72,11 +74,11 @@ public class GravityBox : MonoBehaviour, IInteractable
     public void Interact()
     {
         // Проверяем расстояние между игроком и коробкой
-        float distance = Vector2.Distance(transform.position, player.transform.position);
+        float distance = Vector2.Distance(transform.position,((PlayerPlatformerMovement)player).transform.position);
         if (distance <= interactionRadius)
         {
             // Толкаем коробку от игрока
-            Vector2 direction = (transform.position - player.transform.position).normalized;
+            Vector2 direction = (transform.position - ((PlayerPlatformerMovement)player).transform.position).normalized;
             rb.AddForce(direction * 10f, ForceMode2D.Impulse); // Толчок
         }
         else
