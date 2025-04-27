@@ -10,15 +10,15 @@ public class InfoWindow : MonoBehaviour
 
     private void Awake()
     {
-        // Инициализация синглтона
-        if (Instance == null)
-        {
-            Instance = this;
-        }
-        else
-        {
-            Destroy(gameObject); // Уничтожаем дубликаты
-        }
+        //// Инициализация синглтона
+        //if (Instance == null)
+        //{
+        //    Instance = this;
+        //}
+        //else
+        //{
+        //    Destroy(gameObject); // Уничтожаем дубликаты
+        //}
     }
 
     // Показываем окно с информацией

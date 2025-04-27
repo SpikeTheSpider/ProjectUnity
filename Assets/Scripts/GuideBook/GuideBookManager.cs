@@ -14,7 +14,7 @@ namespace Assets.Scripts
             public string description;
         }
 
-        [SerializeField] private GameObject book; // Объект окна
+        [SerializeField] private GameObject book;
         public HandbookEntry[] entries;
         public GameObject handbookPanel;
         public TMP_Text titleText;
@@ -32,9 +32,7 @@ namespace Assets.Scripts
         {
             foreach (var entry in entries)
             {
-                // Создаем локальную копию entry для каждой итерации
                 var currentEntry = entry;
-
                 GameObject buttonObj = Instantiate(entryButtonPrefab, buttonsParent);
                 buttonObj.GetComponentInChildren<TMP_Text>().text = currentEntry.title;
                 buttonObj.GetComponent<Button>().onClick.AddListener(() => ShowEntry(currentEntry));
@@ -49,7 +47,20 @@ namespace Assets.Scripts
 
         public void ToggleHandbook()
         {
-            handbookPanel.SetActive(!handbookPanel.activeSelf);
+            // Проверяем, есть ли уже открытые окна с тегом "Window"
+            GameObject[] windows = GameObject.FindGameObjectsWithTag("Window");
+            foreach (GameObject window in windows)
+            {
+                if (window != handbookPanel && window.activeSelf)
+                {
+                    // Найдено другое активное окно - не открываем справочник
+                    return;
+                }
+            }
+
+            // Переключаем состояние справочника
+            bool activate = !handbookPanel.activeSelf;
+            handbookPanel.SetActive(activate);
         }
 
         private void Update()
