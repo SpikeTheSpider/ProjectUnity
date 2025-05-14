@@ -25,14 +25,14 @@ public class InfoWindow : MonoBehaviour
     public void Show(string info)
     {
         infoText.text = info; // Устанавливаем текст
-        window.SetActive(true); // Показываем окно
+        gameObject.SetActive(true); // Показываем окно
         Time.timeScale = 0.05f; // Замедляем время
     }
 
     // Скрываем окно
     public void Hide()
     {
-        window.SetActive(false); // Скрываем окно
+        gameObject.SetActive(false); // Скрываем окно
         Time.timeScale = 1f; // Восстанавливаем время
     }
 

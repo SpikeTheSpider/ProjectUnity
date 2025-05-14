@@ -14,6 +14,7 @@ public class CodeEditorWindow : MonoBehaviour
     [SerializeField] private TMP_Text errorText; // Текст для ошибок (TextMeshPro)
     [SerializeField] private TMP_Text helpText; // Текст для справки (TextMeshPro)
     [SerializeField] private Button runButton; // Кнопка для выполнения кода
+    [SerializeField] private Button closeButton; // Кнопка для закрытия окна
 
     private IInteractable targetObject; // Объект, с которым взаимодействуем
     private Coroutine validationCoroutine; // Для задержки проверки кода
@@ -47,6 +48,7 @@ public class CodeEditorWindow : MonoBehaviour
     private void Start()
     {
         runButton.onClick.AddListener(OnRunButtonClicked);
+        closeButton.onClick.AddListener(Hide);
         codeInputField.onValueChanged.AddListener(OnCodeValueChanged);
     }
 

@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "D:\\programming\\Unity Editor\\UnitiyProjects\\ProjectUnity\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4036F2BA-A935-FD0B-0AF1-834488DE5DB3}|Assembly-CSharp.csproj|d:\\programming\\unity editor\\unitiyprojects\\projectunity\\assets\\scripts\\ingameconsole\\codeeditorwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4036F2BA-A935-FD0B-0AF1-834488DE5DB3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ingameconsole\\codeeditorwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4036F2BA-A935-FD0B-0AF1-834488DE5DB3}|Assembly-CSharp.csproj|d:\\programming\\unity editor\\unitiyprojects\\projectunity\\assets\\scripts\\ingameconsole\\infowindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4036F2BA-A935-FD0B-0AF1-834488DE5DB3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ingameconsole\\infowindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4036F2BA-A935-FD0B-0AF1-834488DE5DB3}|Assembly-CSharp.csproj|d:\\programming\\unity editor\\unitiyprojects\\projectunity\\assets\\scripts\\gravitybox\\gravitybox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4036F2BA-A935-FD0B-0AF1-834488DE5DB3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gravitybox\\gravitybox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4036F2BA-A935-FD0B-0AF1-834488DE5DB3}|Assembly-CSharp.csproj|d:\\programming\\unity editor\\unitiyprojects\\projectunity\\assets\\scripts\\scene managment\\scr_mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4036F2BA-A935-FD0B-0AF1-834488DE5DB3}|Assembly-CSharp.csproj|D:\\programming\\Unity Editor\\UnitiyProjects\\ProjectUnity\\assets\\scripts\\scene managment\\scr_mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4036F2BA-A935-FD0B-0AF1-834488DE5DB3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scene managment\\scr_mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4036F2BA-A935-FD0B-0AF1-834488DE5DB3}|Assembly-CSharp.csproj|D:\\programming\\Unity Editor\\UnitiyProjects\\ProjectUnity\\assets\\scripts\\terminals\\infoterminall3.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{4036F2BA-A935-FD0B-0AF1-834488DE5DB3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\terminals\\infoterminall3.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4036F2BA-A935-FD0B-0AF1-834488DE5DB3}|Assembly-CSharp.csproj|D:\\programming\\Unity Editor\\UnitiyProjects\\ProjectUnity\\assets\\scripts\\guidebook\\guidebookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4036F2BA-A935-FD0B-0AF1-834488DE5DB3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\guidebook\\guidebookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4036F2BA-A935-FD0B-0AF1-834488DE5DB3}|Assembly-CSharp.csproj|D:\\programming\\Unity Editor\\UnitiyProjects\\ProjectUnity\\assets\\scripts\\terminals\\infoterminall3.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4036F2BA-A935-FD0B-0AF1-834488DE5DB3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\terminals\\infoterminall3.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,20 +46,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "GravityBox.cs",
               "DocumentMoniker": "D:\\programming\\Unity Editor\\UnitiyProjects\\ProjectUnity\\Assets\\Scripts\\GravityBox\\GravityBox.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GravityBox\\GravityBox.cs",
               "ToolTip": "D:\\programming\\Unity Editor\\UnitiyProjects\\ProjectUnity\\Assets\\Scripts\\GravityBox\\GravityBox.cs",
               "RelativeToolTip": "Assets\\Scripts\\GravityBox\\GravityBox.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHoAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAqwGEAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T11:01:55.433Z",
+              "WhenOpened": "2025-05-14T12:30:49.376Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "InfoWindow.cs",
+              "DocumentMoniker": "D:\\programming\\Unity Editor\\UnitiyProjects\\ProjectUnity\\Assets\\Scripts\\IngameConsole\\InfoWindow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\IngameConsole\\InfoWindow.cs",
+              "ToolTip": "D:\\programming\\Unity Editor\\UnitiyProjects\\ProjectUnity\\Assets\\Scripts\\IngameConsole\\InfoWindow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\IngameConsole\\InfoWindow.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:19:03.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CodeEditorWindow.cs",
+              "DocumentMoniker": "D:\\programming\\Unity Editor\\UnitiyProjects\\ProjectUnity\\Assets\\Scripts\\IngameConsole\\CodeEditorWindow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\IngameConsole\\CodeEditorWindow.cs",
+              "ToolTip": "D:\\programming\\Unity Editor\\UnitiyProjects\\ProjectUnity\\Assets\\Scripts\\IngameConsole\\CodeEditorWindow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\IngameConsole\\CodeEditorWindow.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwDIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:18:32.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "scr_MainMenu.cs",
               "DocumentMoniker": "D:\\programming\\Unity Editor\\UnitiyProjects\\ProjectUnity\\Assets\\Scripts\\Scene Managment\\scr_MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scene Managment\\scr_MainMenu.cs",
@@ -64,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "InfoTerminall3.txt",
               "DocumentMoniker": "D:\\programming\\Unity Editor\\UnitiyProjects\\ProjectUnity\\Assets\\Scripts\\Terminals\\InfoTerminall3.txt",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Terminals\\InfoTerminall3.txt",
@@ -76,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "GuideBookManager.cs",
               "DocumentMoniker": "D:\\programming\\Unity Editor\\UnitiyProjects\\ProjectUnity\\Assets\\Scripts\\GuideBook\\GuideBookManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GuideBook\\GuideBookManager.cs",
@@ -84,7 +118,8 @@
               "RelativeToolTip": "Assets\\Scripts\\GuideBook\\GuideBookManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T10:44:15.393Z"
+              "WhenOpened": "2025-04-23T10:44:15.393Z",
+              "EditorCaption": ""
             }
           ]
         }
