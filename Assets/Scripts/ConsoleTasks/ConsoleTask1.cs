@@ -102,10 +102,12 @@ public class ConsoleTask1 : MonoBehaviour, IInteractable
             var result = await script.RunAsync(this);
 
             CheckSolution();
+
+            codeEditorWindow.errorText.text = "Код скомпелирован успешно.";
         }
         catch (Exception ex)
         {
-            Debug.LogError($"Ошибка выполнения кода: {ex.Message}");
+            codeEditorWindow.errorText.text = $"Ошибка выполнения кода: {ex.Message}";
         }
     }
 
@@ -136,7 +138,7 @@ public class ConsoleTask1 : MonoBehaviour, IInteractable
         }
         catch (Exception e)
         {
-            Debug.LogError($"Ошибка при проверке решения: {e.Message}");
+            codeEditorWindow.errorText.text = $"Ошибка при проверке решения: {e.Message}";
         }
     }
 

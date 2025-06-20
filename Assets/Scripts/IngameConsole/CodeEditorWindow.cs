@@ -11,7 +11,7 @@ using System.Collections;
 public class CodeEditorWindow : MonoBehaviour
 {
     [SerializeField] private TMP_InputField codeInputField; // Поле для ввода кода (TextMeshPro)
-    [SerializeField] private TMP_Text errorText; // Текст для ошибок (TextMeshPro)
+    [SerializeField] public TMP_Text errorText; // Текст для ошибок (TextMeshPro)
     [SerializeField] private TMP_Text helpText; // Текст для справки (TextMeshPro)
     [SerializeField] private Button runButton; // Кнопка для выполнения кода
     [SerializeField] private Button closeButton; // Кнопка для закрытия окна
@@ -29,6 +29,7 @@ public class CodeEditorWindow : MonoBehaviour
         codeInputField.text = !string.IsNullOrEmpty(savedCode) ? savedCode : interactable.GetDefaultCode();
 
         helpText.text = interactable.GetHelpInfo(); // Загружаем справочную информацию
+        errorText.text = "Окно для ошибок";
         gameObject.SetActive(true); // Показываем окно редактора
 
         Time.timeScale = 0.05f; // Замедляем время
@@ -94,7 +95,7 @@ public class CodeEditorWindow : MonoBehaviour
             // Выполняем код, передавая контекст
             await script.RunAsync(context);
 
-            errorText.text = "Code executed successfully.";
+            
         }
         catch (CompilationErrorException ex)
         {

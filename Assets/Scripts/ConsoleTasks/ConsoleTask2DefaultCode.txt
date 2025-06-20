@@ -1,0 +1,7 @@
+﻿// Запусти систему охлаждения:
+
+double reactorTemp = 150.0;
+if (reactorTemp > 100.0)
+{
+    
+}

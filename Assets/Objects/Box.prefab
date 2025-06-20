@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8670954947497726175}
   - component: {fileID: 8647507048896930135}
   - component: {fileID: 7055712656514685901}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30,8 +30,8 @@ Transform:
   m_GameObject: {fileID: 2790804092295564570}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.99, y: 5.95, z: 0}
-  m_LocalScale: {x: 2.4768, y: 2.3362, z: 1}
+  m_LocalPosition: {x: -3.705, y: 6.2648, z: 0}
+  m_LocalScale: {x: 1.5490428, y: 1.494504, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -80,7 +80,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -4016596106770255804, guid: 836ccdfa4ebfe4a49a42f8b8fcdd4757, type: 3}
+  m_Sprite: {fileID: 853381640, guid: 6060f512cc8c45f468380c59c804ba0f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -125,17 +125,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.001337871, y: 0.0042555034}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.65, y: 0.64}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 0.65, y: 0.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.65, y: 0.64}
+  m_Size: {x: 0.9951929, y: 0.98894566}
   m_EdgeRadius: 0
 --- !u!114 &8670954947497726175
 MonoBehaviour:
@@ -151,7 +151,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infoFile: {fileID: 4900000, guid: 7f2699e968398ea4b8dbe935601d55e1, type: 3}
   infoWindow: {fileID: 0}
-  player: {fileID: 0}
   interactionRadius: 3
   defaultCodeFile: {fileID: 4900000, guid: 6b0e73f783a73c54d90899ebcc39d617, type: 3}
   helpInfoFile: {fileID: 4900000, guid: 5b0c8484d03189643a524bdb351610b9, type: 3}
@@ -168,7 +167,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 10
+  m_Mass: 1000
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 0
